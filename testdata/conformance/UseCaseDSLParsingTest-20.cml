@@ -1,0 +1,9 @@
+
+			UseCase testUsecase {
+				actor = "Insurance Employee"
+				interactions = create an "Address"
+				benefit = "I can manage the customers addresses."
+				scope = "Insurance ERP"
+				level = "Sea Level"
+			}
+		

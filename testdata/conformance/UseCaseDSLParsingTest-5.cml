@@ -1,0 +1,6 @@
+
+			UseCase testUsecase {
+				actor = "Insurance Employee"
+				interactions = create a "Customer"
+			}
+		

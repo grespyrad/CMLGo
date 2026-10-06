@@ -1,0 +1,9 @@
+
+			BoundedContext ContextA {
+				Aggregate TestAggregate {
+					ValueObject TestVO {
+						String testId
+					}
+				}
+			}
+		

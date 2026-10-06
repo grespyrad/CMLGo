@@ -1,0 +1,13 @@
+
+			BoundedContext TestContext
+			Stakeholders of TestContext {
+				StakeholderGroup TestUsers
+			}
+			ValueRegister TestRegister for TestContext {
+				Value Privacy {
+					isCore
+					demonstrator "right to be alone"
+					Stakeholders TestUsers
+				}
+			}
+		

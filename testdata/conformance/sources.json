@@ -1,0 +1,1640 @@
+[
+  {
+    "file": "AggregateDSLParsingTest-0.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 51,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-1.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 68,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-2.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 88,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-3.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 106,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-4.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 131,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-5.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 153,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-6.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 174,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-7.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 191,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-8.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 208,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-9.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 225,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-10.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 242,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-11.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 259,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-12.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 276,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-13.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 293,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-14.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 310,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-15.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 333,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-16.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 358,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "AggregateDSLParsingTest-17.cml",
+    "source_file": "AggregateDSLParsingTest.xtend",
+    "source_line": 394,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-0.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 60,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-1.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 75,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-2.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 93,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-3.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 112,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-4.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 133,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-5.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 151,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-6.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 170,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-7.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 198,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-8.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 219,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-9.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 247,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-10.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 280,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-11.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 314,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-12.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 348,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-13.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 382,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-14.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 413,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-15.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 453,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-16.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 495,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-17.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 536,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-18.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 571,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-19.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 608,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-20.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 645,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-21.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 682,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-22.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 715,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-23.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 750,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-24.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 785,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-25.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 820,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-26.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 856,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-27.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 898,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-28.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 938,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-29.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 979,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-30.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 999,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-31.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 1029,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-32.cml",
+    "source_file": "ApplicationLayerDSLParsingTest.xtend",
+    "source_line": 1070,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-0.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 51,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-1.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 80,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-2.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 111,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-3.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 140,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-4.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 171,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-5.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 205,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-6.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 239,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-7.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 264,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-8.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 291,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-9.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 322,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-10.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 357,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-11.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 386,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-12.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 413,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-13.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 444,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-14.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 473,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ApplicationLayerValidationTest-15.cml",
+    "source_file": "ApplicationLayerValidationTest.xtend",
+    "source_line": 500,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-0.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 49,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-1.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 64,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-2.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 80,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-3.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 97,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-4.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 117,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-5.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 133,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-6.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 149,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-7.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 165,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-8.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 181,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-9.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 197,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-10.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 218,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-11.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 245,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-12.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 264,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-13.cml",
+    "source_file": "BoundedContextDSLParsingTest.xtend",
+    "source_line": 292,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-0.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 47,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-1.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 61,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-2.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 77,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-3.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 102,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-4.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 126,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-5.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 142,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-6.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 158,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-7.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 180,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-8.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 201,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-9.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 226,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ContextMapDSLParsingTest-10.cml",
+    "source_file": "ContextMapDSLParsingTest.xtend",
+    "source_line": 247,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-0.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 47,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-1.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 63,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-2.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 90,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-3.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 117,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-4.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 147,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-5.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 163,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-6.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 182,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-7.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 202,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-8.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 222,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-9.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 242,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-10.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 268,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-11.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 290,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-12.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 310,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainDSLParsingTest-13.cml",
+    "source_file": "DomainDSLParsingTest.xtend",
+    "source_line": 333,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-0.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 45,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-1.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 65,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-2.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 84,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-3.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 103,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-4.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 128,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-5.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 156,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-6.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 181,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-7.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 211,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-8.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 245,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-9.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 274,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "DomainObjectValidatorTest-10.cml",
+    "source_file": "DomainObjectValidatorTest.xtend",
+    "source_line": 303,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-0.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 43,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-1.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 60,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-2.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 79,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-3.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 98,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-4.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 119,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-5.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 144,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-6.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 171,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-7.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 197,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-8.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 223,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-9.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 247,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-10.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 271,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-11.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 295,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-12.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 319,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-13.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 345,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-14.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 371,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "StakeholderDSLParsingTest-15.cml",
+    "source_file": "StakeholderDSLParsingTest.xtend",
+    "source_line": 395,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-0.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 43,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-1.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 73,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-2.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 110,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-3.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 140,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-4.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 178,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-5.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 202,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-6.cml",
+    "source_file": "SymmetricRelationshipDSLParsingTest.xtend",
+    "source_line": 226,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-0.cml",
+    "source_file": "TacticDDDAssociatonsGrammarTest.xtend",
+    "source_line": 44,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-1.cml",
+    "source_file": "TacticDDDAssociatonsGrammarTest.xtend",
+    "source_line": 71,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-2.cml",
+    "source_file": "TacticDDDAssociatonsGrammarTest.xtend",
+    "source_line": 97,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-3.cml",
+    "source_file": "TacticDDDAssociatonsGrammarTest.xtend",
+    "source_line": 125,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-0.cml",
+    "source_file": "TacticDDDDomainObjectsTest.xtend",
+    "source_line": 43,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-1.cml",
+    "source_file": "TacticDDDDomainObjectsTest.xtend",
+    "source_line": 67,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-2.cml",
+    "source_file": "TacticDDDDomainObjectsTest.xtend",
+    "source_line": 91,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-3.cml",
+    "source_file": "TacticDDDDomainObjectsTest.xtend",
+    "source_line": 115,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainServicesTest-0.cml",
+    "source_file": "TacticDDDDomainServicesTest.xtend",
+    "source_line": 41,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainServicesTest-1.cml",
+    "source_file": "TacticDDDDomainServicesTest.xtend",
+    "source_line": 63,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDDomainServicesTest-2.cml",
+    "source_file": "TacticDDDDomainServicesTest.xtend",
+    "source_line": 87,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDListOfEnumsTest-0.cml",
+    "source_file": "TacticDDDListOfEnumsTest.xtend",
+    "source_line": 42,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDModuleValidationTest-0.cml",
+    "source_file": "TacticDDDModuleValidationTest.xtend",
+    "source_line": 46,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDModuleValidationTest-1.cml",
+    "source_file": "TacticDDDModuleValidationTest.xtend",
+    "source_line": 53,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDModuleValidationTest-2.cml",
+    "source_file": "TacticDDDModuleValidationTest.xtend",
+    "source_line": 60,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-0.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 48,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-1.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 73,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-2.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 98,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-3.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 132,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-4.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 167,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-5.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 201,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-6.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 236,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-7.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 262,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-8.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 288,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-9.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 323,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-10.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 359,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-11.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 393,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-12.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 428,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-13.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 457,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-14.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 486,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-15.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 515,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-16.cml",
+    "source_file": "TacticDDDOperationsGrammarAndValidationTest.xtend",
+    "source_line": 544,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-0.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 44,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-1.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 61,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-2.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 78,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-3.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 95,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-4.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 114,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-5.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 131,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-6.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 148,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-7.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 163,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-8.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 183,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-9.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 202,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-10.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 221,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-11.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 240,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-12.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 259,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-13.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 278,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-14.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 299,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UniquenessValidatorTest-15.cml",
+    "source_file": "UniquenessValidatorTest.xtend",
+    "source_line": 320,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-0.cml",
+    "source_file": "UpstreamDownstreamExposedAggregatesTest.xtend",
+    "source_line": 48,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-1.cml",
+    "source_file": "UpstreamDownstreamExposedAggregatesTest.xtend",
+    "source_line": 85,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-2.cml",
+    "source_file": "UpstreamDownstreamExposedAggregatesTest.xtend",
+    "source_line": 126,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-3.cml",
+    "source_file": "UpstreamDownstreamExposedAggregatesTest.xtend",
+    "source_line": 156,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-4.cml",
+    "source_file": "UpstreamDownstreamExposedAggregatesTest.xtend",
+    "source_line": 190,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamGovernanceRightsTest-0.cml",
+    "source_file": "UpstreamDownstreamGovernanceRightsTest.xtend",
+    "source_line": 47,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamGovernanceRightsTest-1.cml",
+    "source_file": "UpstreamDownstreamGovernanceRightsTest.xtend",
+    "source_line": 84,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamGovernanceRightsTest-2.cml",
+    "source_file": "UpstreamDownstreamGovernanceRightsTest.xtend",
+    "source_line": 118,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-0.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 51,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-1.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 85,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-2.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 118,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-3.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 159,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-4.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 200,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-5.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 239,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-6.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 277,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-7.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 305,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-8.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 333,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-9.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 364,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-10.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 399,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-11.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 434,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-12.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 472,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-13.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 494,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-14.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 516,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-15.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 538,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-16.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 565,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-17.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 587,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-18.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 609,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-19.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 633,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-20.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 657,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-21.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 681,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-22.cml",
+    "source_file": "UpstreamDownstreamRelationshipDSLParsingTest.xtend",
+    "source_line": 717,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-0.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 43,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-1.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 59,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-2.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 75,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-3.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 92,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-4.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 112,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-5.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 134,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-6.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 154,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-7.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 176,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-8.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 195,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-9.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 216,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-10.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 237,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-11.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 257,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-12.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 277,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-13.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 297,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-14.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 317,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-15.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 337,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-16.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 357,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-17.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 377,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-18.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 397,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-19.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 421,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-20.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 442,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UseCaseDSLParsingTest-21.cml",
+    "source_file": "UseCaseDSLParsingTest.xtend",
+    "source_line": 464,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-0.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 44,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-1.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 60,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-2.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 80,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-3.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 100,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-4.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 116,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-5.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 132,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-6.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 155,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "UserStoryDSLParsingTest-7.cml",
+    "source_file": "UserStoryDSLParsingTest.xtend",
+    "source_line": 176,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-0.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 42,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-1.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 59,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-2.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 78,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-3.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 99,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-4.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 122,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-5.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 146,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-6.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 170,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-7.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 196,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-8.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 223,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-9.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 250,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-10.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 278,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-11.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 306,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-12.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 337,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-13.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 368,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-14.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 399,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-15.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 430,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-16.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 463,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-17.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 496,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-18.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 535,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-19.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 574,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-20.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 597,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-21.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 620,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-22.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 643,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-23.cml",
+    "source_file": "ValueRegisterDSLParsingTest.xtend",
+    "source_line": 668,
+    "upstream_commit": "eb63d120265600cc9d5f531cdbfc9ef44837d78c"
+  }
+]

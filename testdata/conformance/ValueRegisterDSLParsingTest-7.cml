@@ -1,0 +1,10 @@
+
+			BoundedContext TestContext
+			ValueRegister TestRegister for TestContext {
+				Value Privacy {
+					isCore
+					relatedValue "Intimacy"
+					relatedValue "Anonymity"
+				}
+			}
+		

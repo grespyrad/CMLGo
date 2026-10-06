@@ -1,0 +1,9 @@
+
+			Domain TestDomain {
+				Subdomain TestSubdomain {
+					Entity TestEntity {
+						String testId
+					}
+				}
+			}
+		

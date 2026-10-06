@@ -1,0 +1,13 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				testContext [U,OHS,PL]->[D] anotherTestContext {
+					downstreamRights = INFLUENCER
+				}
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

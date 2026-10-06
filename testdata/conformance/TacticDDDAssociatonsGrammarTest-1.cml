@@ -1,0 +1,11 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Entity Customer {
+						- @Address address -- "address"
+					}
+					
+					Entity Address
+				}
+			}
+		

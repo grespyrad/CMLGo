@@ -1,0 +1,10 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					useCases = testUseCase1, testUseCase2
+				}
+			}
+			
+			UseCase testUseCase1
+			UseCase testUseCase2
+		

@@ -1,0 +1,16 @@
+
+			BoundedContext ContextA {
+				Application {
+					Coordination TestCoordination {
+						ContextB::TestService::testOperation;
+					}
+				}
+			}
+			BoundedContext ContextB {
+				Application {
+					Service TestService {
+						testOperation;
+					}
+				}
+			}
+		

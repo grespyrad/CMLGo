@@ -1,0 +1,5 @@
+
+			BoundedContext testContext {
+				domainVisionStatement = "this is my vision"
+			}
+		

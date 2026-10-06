@@ -1,0 +1,6 @@
+schema: spec-driven
+context: |
+  Documentation language: ru; structural headings and SHALL/MUST stay English.
+  Independent Go library and CLI, compatible with Context Mapper CML 6.12.0.
+  Preserve CML syntax; no YAML model format or language extensions.
+  Specs precede tests and implementation; use local checks, no GitHub Actions.

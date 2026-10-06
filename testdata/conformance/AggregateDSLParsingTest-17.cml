@@ -1,0 +1,13 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					enum States {
+						aggregateLifecycle
+						STATE1, STATE2
+					}
+					enum NotStates {
+						STATE1, STATE2
+					}
+				}
+			}
+		

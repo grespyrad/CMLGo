@@ -1,0 +1,684 @@
+# Общий строгий профиль для Go 1.27 и golangci-lint 2.14.0.
+# Обоснования исключений и перенос: docs/QUALITY.md.
+# Новые линтеры проверяются при явном обновлении закреплённой версии инструмента.
+version: "2"
+
+run:
+  go: "1.27"
+  timeout: 10m
+  tests: true
+  modules-download-mode: readonly
+  relative-path-mode: gitroot
+  allow-parallel-runners: false
+
+output:
+  sort-order:
+    - linter
+    - file
+  show-stats: true
+
+issues:
+  # Show every issue, never hide duplicates.
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  uniq-by-line: false
+
+linters:
+  default: all
+  disable:
+    # Deprecated, replaced by their successors which are enabled via `default: all`.
+    - exhaustruct # -> exhaustruct_v5
+    - gomodguard # -> gomodguard_v2
+    - wsl # -> wsl_v5
+    # Эти правила запрещают допустимые Go-идиомы и не проверяют корректность.
+    - decorder # Порядок объявлений не меняет семантику программы.
+    - funcorder # Порядок методов выбирается по смыслу, а не алфавиту.
+    - noinlineerr # if err := operation(); err != nil — стандартная Go-идиома.
+    - nonamedreturns # Имена результатов допустимы; nakedret запрещает голый return.
+    - ireturn # Возврат интерфейса нужен для grpc, io и фабрик реализаций.
+    - varnamelen # Короткие имена допустимы; shadow проверяет опасные перекрытия.
+
+  settings:
+    cyclop:
+      max-complexity: 10
+      package-average: 5.0
+
+    decorder:
+      dec-order:
+        - const
+        - var
+        - type
+        - func
+      ignore-underscore-vars: false
+      disable-dec-order-check: false
+      disable-init-func-first-check: false
+      disable-dec-num-check: false
+      disable-type-dec-num-check: false
+      disable-const-dec-num-check: false
+      disable-var-dec-num-check: false
+
+    depguard:
+      rules:
+        main:
+          list-mode: lax
+          files:
+            - $all
+          deny:
+            - pkg: io/ioutil
+              desc: deprecated since Go 1.16, use io and os
+            - pkg: math/rand$
+              desc: use math/rand/v2
+            - pkg: github.com/pkg/errors
+              desc: use errors and fmt.Errorf with %w
+            - pkg: golang.org/x/exp/slices
+              desc: use slices from the standard library
+            - pkg: golang.org/x/exp/maps
+              desc: use maps from the standard library
+            - pkg: github.com/golang/protobuf
+              desc: use google.golang.org/protobuf
+            - pkg: github.com/satori/go.uuid
+              desc: use github.com/google/uuid
+            - pkg: github.com/sirupsen/logrus
+              desc: use log/slog
+            - pkg: go.uber.org/zap
+              desc: use log/slog
+            - pkg: log$
+              desc: use log/slog
+
+    dogsled:
+      max-blank-identifiers: 1
+
+    dupl:
+      threshold: 100
+
+    dupword:
+      ignore: []
+
+    embeddedstructfieldcheck:
+      empty-line: true
+      forbid-mutex: true
+
+    errcheck:
+      check-type-assertions: true
+      check-blank: true
+      disable-default-exclusions: true
+
+    errchkjson:
+      check-error-free-encoding: false # errcheck требует проверки даже безопасного json.Marshal.
+      report-no-exported: true
+
+    errorlint:
+      errorf: true
+      errorf-multi: true
+      asserts: true
+      comparison: true
+
+    exhaustive:
+      check:
+        - switch
+        - map
+      default-signifies-exhaustive: false
+      default-case-required: true
+      explicit-exhaustive-switch: false
+      explicit-exhaustive-map: false
+
+    exhaustruct_v5:
+      # Нулевые значения — контракт Go; непустые собственные структуры проверяются полностью.
+      allow-empty: true
+      ignore-patterns:
+        # В публичных CML structs пропущенное поле означает отсутствие optional grammar assignment.
+        - '^github\.com/grespyrad/CMLGo\.(ContextMappingModel|BoundedContext|Aggregate|SimpleDomainObject|Entity)$'
+        - '^.*/generated/.*' # Generated protobuf messages define optional fields.
+        - '^net/http\.Server$' # stdlib предлагает конфиг с безопасными нулевыми значениями.
+        - '^crypto/tls\.Config$' # Проверки TLS выполняет gosec.
+        - '^google\.golang\.org/.*'  # protobuf и grpc имеют расширяемые поля.
+        - '^github\.com/(aws|redis)/.*' # Конфиги внешних SDK используют значения по умолчанию.
+        - '^github\.com/twmb/franz-go/pkg/kgo\.Record$' # Protocol fields are filled by franz-go.
+        - '^go\.opentelemetry\.io/.*'  # OpenTelemetry имеет расширяемые интерфейсы.
+      allow-empty-returns: false
+      allow-empty-declarations: false
+      explicit-mode: false
+
+    fatcontext:
+      check-struct-pointers: true
+
+    forbidigo:
+      analyze-types: true
+      forbid:
+        - pattern: ^print(ln)?$
+          msg: use log/slog
+        - pattern: ^fmt\.Print(f|ln)?$
+          msg: use log/slog
+        - pattern: ^panic$
+          msg: return errors instead of panicking
+
+    funcorder:
+      constructor: true
+      struct-method: true
+      alphabetical: true
+
+    funlen:
+      lines: 60
+      statements: 40
+      ignore-comments: false
+
+    gochecksumtype:
+      default-signifies-exhaustive: false
+      include-shared-interfaces: true
+
+    gocognit:
+      min-complexity: 10
+
+    goconst:
+      min-len: 3
+      min-occurrences: 3
+      match-constant: true
+      numbers: false # Числа отдельно проверяет mnd.
+      ignore-calls: true # Repeated human-readable fmt/slog text stays at its call site.
+      find-duplicates: false # Разные bounded contexts не обязаны делить одну константу.
+      eval-const-expressions: true
+
+    gocritic:
+      enable-all: true
+      disabled-checks:
+        - unnamedResult # Конфликтует с допустимыми безымянными результатами.
+        - hugeParam # Копирование immutable-конфига решается по измерениям, а не размеру структуры.
+      settings:
+        captLocal:
+          paramsOnly: false
+        elseif:
+          skipBalanced: false
+        ifElseChain:
+          minThreshold: 2
+        nestingReduce:
+          bodyWidth: 5
+        rangeExprCopy:
+          sizeThreshold: 512
+          skipTestFuncs: false
+        rangeValCopy:
+          sizeThreshold: 128
+          skipTestFuncs: false
+        tooManyResultsChecker:
+          maxResults: 3
+        truncateCmp:
+          skipArchDependent: false
+        underef:
+          skipRecvDeref: false
+
+    gocyclo:
+      min-complexity: 10
+
+    godoclint:
+      default: all
+      options:
+        max-len:
+          length: 120
+
+    godot:
+      scope: all
+      period: true
+      capital: true
+
+    godox:
+      keywords:
+        - TODO
+        - FIXME
+        - BUG
+        - HACK
+        - XXX
+        - OPTIMIZE
+
+    gomoddirectives:
+      replace-local: false
+      retract-allow-no-explanation: false
+      exclude-forbidden: true
+      ignore-forbidden: true
+      toolchain-forbidden: true
+      go-debug-forbidden: true
+      go-version-pattern: '1\.\d+\.\d+$'
+
+    gomodguard_v2:
+      blocked:
+        - module: github.com/golang/protobuf
+          recommendations:
+            - google.golang.org/protobuf
+          reason: deprecated
+        - module: github.com/satori/go.uuid
+          recommendations:
+            - github.com/google/uuid
+          reason: not maintained
+        - module: github.com/pkg/errors
+          recommendations:
+            - errors
+          reason: use the standard library
+        - module: github.com/go-redis/redis
+          recommendations:
+            - github.com/redis/go-redis/v9
+          reason: moved
+
+    gosec:
+      severity: low
+      confidence: low
+      config:
+        global:
+          audit: true
+          show-ignored: true
+
+    gosmopolitan:
+      allow-time-local: false
+
+    govet:
+      enable-all: true
+      disable: [fieldalignment] # Auto-reordering breaks embedding order; layout changes require benchmarks.
+      settings:
+        shadow:
+          strict: false # Повторный err в отдельной ветке допустим; опасное shadow остаётся включено.
+
+    grouper:
+      const-require-single-const: false
+      const-require-grouping: false
+      import-require-single-import: true
+      import-require-grouping: false
+      type-require-single-type: false
+      type-require-grouping: false
+      var-require-single-var: false
+      var-require-grouping: false
+
+    iface:
+      enable:
+        - identical
+        - opaque
+        - unexported
+
+    inamedparam:
+      skip-single-param: false
+
+    interfacebloat:
+      max: 10
+
+    ireturn:
+      allow:
+        - error
+        - generic
+        # Deriving a context (WithValue/WithTimeout style helpers) is the one stdlib idiom
+        # that must return an interface.
+        - context\.Context
+
+    lll:
+      line-length: 120
+      tab-width: 4
+
+    loggercheck:
+      kitlog: true
+      klog: true
+      logr: true
+      slog: true
+      zap: true
+      require-string-key: true
+      no-printf-like: true
+
+    maintidx:
+      under: 20
+
+    makezero:
+      always: true
+
+    misspell:
+      locale: US
+      mode: default
+
+    mnd:
+      checks:
+        - argument
+        - case
+        - condition
+        - operation
+        - return
+        - assign
+      ignored-numbers: []
+      ignored-files: []
+      ignored-functions: []
+
+    musttag:
+      functions: []
+
+    nakedret:
+      max-func-lines: 0
+
+    nestif:
+      min-complexity: 4
+
+    nilnil:
+      only-two: false
+      detect-opposite: true
+
+    nlreturn:
+      block-size: 1
+
+    nolintlint:
+      allow-unused: false
+      allow-no-explanation: []
+      require-explanation: true
+      require-specific: true
+
+    nonamedreturns:
+      report-error-in-defer: true
+
+    paralleltest:
+      ignore-missing: false
+      ignore-missing-subtests: false
+
+    perfsprint:
+      integer-format: true
+      int-conversion: true
+      error-format: true
+      err-error: true
+      errorf: true
+      string-format: true
+      sprintf1: true
+      strconcat: true
+      bool-format: true
+      hex-format: true
+
+    prealloc:
+      simple: false
+      range-loops: true
+      for-loops: true
+
+    predeclared:
+      qualified-name: true
+
+    promlinter:
+      strict: true
+
+    reassign:
+      patterns:
+        - .*
+
+    revive:
+      enable-all-rules: true
+      severity: error
+      rules:
+        # Duplicated by dedicated linters with equal or stricter settings.
+        - name: add-constant # mnd + goconst
+          disabled: true
+        - name: line-length-limit # lll
+          disabled: true
+        - name: cognitive-complexity # gocognit
+          disabled: true
+        - name: cyclomatic # cyclop + gocyclo
+          disabled: true
+        - name: function-length # funlen
+          disabled: true
+        - name: imports-blocklist # depguard
+          disabled: true
+        - name: file-header # goheader
+          disabled: true
+        - name: banned-characters # asciicheck + bidichk
+          disabled: true
+        - name: argument-limit
+          arguments: [5]
+        - name: function-result-limit
+          arguments: [3]
+        - name: max-public-structs
+          arguments: [5]
+        - name: max-control-nesting
+          arguments: [3]
+        - name: file-length-limit
+          arguments:
+            - max: 500
+              skipComments: false
+              skipBlankLines: false
+        - name: unhandled-error
+          arguments: []
+        - name: enforce-map-style
+          arguments: [literal]
+        - name: enforce-slice-style
+          arguments: [literal]
+        - name: enforce-repeated-arg-type-style
+          arguments: [short]
+        - name: var-naming
+          arguments:
+            - []
+            - []
+            - - skip-package-name-checks: false
+        - name: comment-spacings
+          arguments: [nolint]
+        # Дублирующие и противоречащие идиомам правила; проверки качества остаются в отдельных линтерах.
+        - name: unused-parameter # Параметры интерфейсов сохраняют контракт; unparam проверяет private-функции.
+          disabled: true
+        - name: unused-receiver # Реализация интерфейса может не читать receiver.
+          disabled: true
+        - name: package-directory-mismatch # Имена server/products и внешних *_test пакетов допустимы.
+          disabled: true
+        - name: multiline-if-init # if err := f(); err != nil допустим в несколько строк.
+          disabled: true
+        - name: unsecure-url-scheme # HTTP используется локально; TLS-код проверяет gosec.
+          disabled: true
+        - name: confusing-results # Несколько однотипных результатов допустимы в API.
+          disabled: true
+        - name: argument-limit # Число зависимостей DDD-конструктора само по себе не дефект.
+          disabled: true
+        - name: function-result-limit # Контракт bootstrap может возвращать ресурсы и cleanup.
+          disabled: true
+        - name: empty-lines # Форматирование полностью задаёт wsl_v5.
+          disabled: true
+
+    rowserrcheck:
+      packages:
+        - github.com/jmoiron/sqlx
+
+    sloglint:
+      no-mixed-args: true
+      kv-only: false
+      attr-only: true
+      no-global: "" # Процессный slog.Default задаётся в bootstrap; контекст обязателен при его наличии.
+      context: scope
+      static-msg: true
+      msg-style: "" # Регистр текста не влияет на корректность; сообщения статичны.
+      no-raw-keys: false
+      key-naming-case: snake
+      forbidden-keys:
+        - time
+        - level
+        - msg
+        - source
+      args-on-sep-lines: false
+
+    spancheck:
+      checks:
+        - end
+        - record-error
+        - set-status
+
+    staticcheck:
+      checks:
+        - all
+
+    tagalign:
+      align: true
+      sort: true
+      strict: true
+
+    tagliatelle:
+      case:
+        use-field-name: false
+        rules:
+          json: snake
+          yaml: snake
+          xml: snake
+          toml: snake
+          db: snake
+          env: upperSnake
+          envconfig: upperSnake
+
+    testifylint:
+      enable-all: true
+      formatter:
+        require-f-funcs: true
+        require-string-msg: true
+      go-require:
+        ignore-http-handlers: false
+
+    thelper:
+      test:
+        first: true
+        name: true
+        begin: true
+      benchmark:
+        first: true
+        name: true
+        begin: true
+      tb:
+        first: true
+        name: true
+        begin: true
+      fuzz:
+        first: true
+        name: true
+        begin: true
+
+    unconvert:
+      fast-math: true
+      safe: false
+
+    unparam:
+      check-exported: false # Экспортируемый API и реализации интерфейсов сохраняют контракт.
+
+    unqueryvet:
+      check-sql-builders: true
+
+    unused:
+      field-writes-are-uses: false
+      post-statements-are-reads: false
+      exported-fields-are-used: false
+      # Must stay true: false reports parameter names in interface method signatures,
+      # which inamedparam requires. The two linters would contradict each other.
+      parameters-are-used: true
+      local-variables-are-used: false
+      generated-is-used: false
+
+    usestdlibvars:
+      http-method: true
+      http-status-code: true
+      time-weekday: true
+      time-month: true
+      time-layout: true
+      crypto-hash: true
+      default-rpc-path: true
+      sql-isolation-level: true
+      tls-signature-scheme: true
+      constant-kind: true
+      time-date-month: true
+
+    usetesting:
+      os-create-temp: true
+      os-mkdir-temp: true
+      os-setenv: true
+      os-temp-dir: true
+      os-chdir: true
+      context-background: true
+      context-todo: true
+
+    varnamelen:
+      max-distance: 5
+      min-name-length: 3
+      check-receiver: false
+      check-return: true
+      check-type-param: true
+      ignore-type-assert-ok: false
+      ignore-map-index-ok: false
+      ignore-chan-recv-ok: false
+      # Universally accepted Go idioms only.
+      ignore-decls:
+        - ctx context.Context
+        - t *testing.T
+        - b *testing.B
+        - f *testing.F
+        - tb testing.TB
+        - w http.ResponseWriter
+        - r *http.Request
+        - wg sync.WaitGroup
+        - mu sync.Mutex
+        - i int
+        - tx pgx.Tx
+        - tx *sqlx.Tx
+        - db *sql.DB
+        - db *sqlx.DB
+      ignore-names:
+        - err
+        - ok
+        - id
+
+    whitespace:
+      multi-if: false # Формат блоков задаёт wsl_v5.
+      multi-func: false # Не добавляем пустые строки, конфликтующие с gofumpt.
+
+    wrapcheck:
+      ignore-sig-regexps:
+        - 'google.golang.org/grpc/status\.(Error|Errorf)\(' # gRPC status — контракт транспорта.
+      report-internal-errors: false # Доменные sentinel errors сохраняют идентичность; внешний контекст обязателен.
+
+    wsl_v5:
+      allow-first-in-block: false
+      allow-whole-block: false
+      branch-max-lines: 2
+      case-max-lines: 0
+      default: all
+
+  exclusions:
+    generated: strict
+    warn-unused: true
+    presets: []
+    rules:
+      # Testify Suite разделяет состояние и не поддерживает t.Parallel.
+      - path: '(^integration_tests/|/(server|crons|consumers)/.*_test\.go$)'
+        linters: [paralleltest]
+      # Дублирующиеся литералы и действия в тестах сохраняют независимость сценариев.
+      - path: '(_test\.go$|/shared/helpers/|^integration_tests/.*/helpers/)'
+        linters: [goconst, dupl, mnd, funlen]
+      # Suite хранит контексты ролей исключительно как тестовый fixture.
+      - path: '^(internal/application/suite|integration_tests/suites/base_suite)\.go$'
+        linters: [containedctx, fatcontext]
+      # Примеры GoDoc печатают в stdout; ошибки вывода не относятся к демонстрируемому API.
+      - path: '(^|/)example_test\.go$'
+        linters: [errcheck, forbidigo]
+      - path: '(^|/)example_test\.go$'
+        linters: [revive]
+        text: 'unhandled-error'
+
+
+formatters:
+  enable:
+    - gci
+    - gofumpt
+    - golines
+    # goimports is fully covered by gci (import grouping) + gofumpt (gofmt superset).
+    # swaggo is not used (swagger is generated from proto by protoc-gen-openapiv2).
+
+  settings:
+    gci:
+      sections:
+        - standard
+        - default
+        - localmodule
+      custom-order: true
+      no-inline-comments: true
+      no-prefix-comments: true
+
+    gofumpt:
+      extra:
+        group-params: true
+        clothe-returns: true
+        balance-calls: true
+
+    golines:
+      max-len: 120
+      tab-len: 4
+      shorten-comments: true
+      reformat-tags: true
+      chain-split-dots: true
+
+  exclusions:
+    generated: strict
+    warn-unused: true

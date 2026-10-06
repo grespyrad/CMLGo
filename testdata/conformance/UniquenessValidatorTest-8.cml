@@ -1,0 +1,8 @@
+
+			BoundedContext ContextA {
+				Aggregate agg1 {
+					Entity Account
+					Entity Account
+				}
+			}
+		

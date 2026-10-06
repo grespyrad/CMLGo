@@ -1,0 +1,9 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Service TestService {
+						void testOperation() : read-only;
+					}
+				}
+			}
+		

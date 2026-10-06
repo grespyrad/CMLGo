@@ -1,0 +1,6 @@
+
+			BoundedContext TestContext
+			ValueRegister TestRegister for TestContext {
+				Value Privacy
+			}
+		

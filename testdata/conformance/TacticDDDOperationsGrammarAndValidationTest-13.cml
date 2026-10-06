@@ -1,0 +1,18 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Entity TestEntity {
+						def void testOperation() : write [OTHERSTATE -> STATE2];
+					}
+					
+					enum States {
+						aggregateLifecycle
+						
+						STATE1, STATE2, STATE3
+					}
+					enum OtherStates {
+						OTHERSTATE
+					}
+				}
+			}
+		

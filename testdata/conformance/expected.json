@@ -1,0 +1,1094 @@
+[
+  {
+    "file": "AggregateDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-14.cml",
+    "valid": false
+  },
+  {
+    "file": "AggregateDSLParsingTest-15.cml",
+    "valid": false
+  },
+  {
+    "file": "AggregateDSLParsingTest-16.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-17.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-5.cml",
+    "valid": false
+  },
+  {
+    "file": "AggregateDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "AggregateDSLParsingTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-14.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-15.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-16.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-17.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-18.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-19.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-20.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-21.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-22.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-23.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-24.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-25.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-26.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-27.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-28.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-29.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-30.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-31.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-32.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-7.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerDSLParsingTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerValidationTest-0.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-1.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-10.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-11.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-12.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-13.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-14.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerValidationTest-15.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerValidationTest-2.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-3.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-4.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-5.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "ApplicationLayerValidationTest-7.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-8.cml",
+    "valid": false
+  },
+  {
+    "file": "ApplicationLayerValidationTest-9.cml",
+    "valid": false
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-11.cml",
+    "valid": false
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "BoundedContextDSLParsingTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-7.cml",
+    "valid": false
+  },
+  {
+    "file": "ContextMapDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "ContextMapDSLParsingTest-9.cml",
+    "valid": false
+  },
+  {
+    "file": "DomainDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-7.cml",
+    "valid": false
+  },
+  {
+    "file": "DomainDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainDSLParsingTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "DomainObjectValidatorTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-14.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-15.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "StakeholderDSLParsingTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-1.cml",
+    "valid": false
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-3.cml",
+    "valid": false
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "SymmetricRelationshipDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-2.cml",
+    "valid": false
+  },
+  {
+    "file": "TacticDDDAssociatonsGrammarTest-3.cml",
+    "valid": false
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDDomainObjectsTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDDomainServicesTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDDomainServicesTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDDomainServicesTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDListOfEnumsTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDModuleValidationTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDModuleValidationTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDModuleValidationTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-12.cml",
+    "valid": false
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-13.cml",
+    "valid": false
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-14.cml",
+    "valid": false
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-15.cml",
+    "valid": false
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-16.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "TacticDDDOperationsGrammarAndValidationTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "UniquenessValidatorTest-0.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-1.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-10.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-11.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-12.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-13.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-14.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-15.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-2.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-3.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-4.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-5.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-6.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "UniquenessValidatorTest-8.cml",
+    "valid": false
+  },
+  {
+    "file": "UniquenessValidatorTest-9.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-2.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-3.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamExposedAggregatesTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamGovernanceRightsTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamGovernanceRightsTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamGovernanceRightsTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-10.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-11.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-12.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-14.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-15.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-16.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-17.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-18.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-19.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-2.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-20.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-21.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-22.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-3.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-4.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-5.cml",
+    "valid": false
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "UpstreamDownstreamRelationshipDSLParsingTest-9.cml",
+    "valid": false
+  },
+  {
+    "file": "UseCaseDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-14.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-15.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-16.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-17.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-18.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-19.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-20.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-21.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "UseCaseDSLParsingTest-9.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "UserStoryDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-0.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-1.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-10.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-11.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-12.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-13.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-14.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-15.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-16.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-17.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-18.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-19.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-2.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-20.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-21.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-22.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-23.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-3.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-4.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-5.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-6.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-7.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-8.cml",
+    "valid": true
+  },
+  {
+    "file": "ValueRegisterDSLParsingTest-9.cml",
+    "valid": true
+  }
+]

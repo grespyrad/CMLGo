@@ -1,0 +1,175 @@
+// Модель нейтрального Go DDD-эталона. Развёртывание и персональные данные не моделируются.
+ContextMap {
+  type SYSTEM_LANDSCAPE
+  state AS_IS
+  contains ExternalService
+  contains Users
+  contains Products
+  contains Orders
+  contains Deliveries
+  ExternalService [ U, OHS, PL ] -> [ D, ACL ] Products
+  Users [ U, OHS, PL ] -> [ D, ACL ] Orders
+  Products [ U, PL ] -> [ D, ACL ] Orders
+  Orders [ U, PL ] -> [ D, ACL ] Deliveries
+}
+BoundedContext Users {
+  domainVisionStatement "Хранить идентичность и проверяемые значения пользователя без конкретных данных."
+  Aggregate User {
+    Entity User {
+      aggregateRoot
+      String userId
+      - UserName name
+      - UserEmail ^email
+      Repository UserRepository {
+        @ User getUser(String userId);
+      }
+    }
+    ValueObject UserName {
+      String value
+    }
+    ValueObject UserEmail {
+      String value
+    }
+    Service UserService {
+      @ User getUser(String userId);
+    }
+  }
+}
+BoundedContext Products {
+  domainVisionStatement "Создавать продукт, подтверждать публикацию и учитывать ссылку на изображение."
+  Aggregate Product {
+    Entity Product {
+      aggregateRoot
+      String productId
+      String name
+      double price
+      String imageFilename
+      String imageURL
+      - ProductStatus status
+      def void ^publish();
+      def void setImageFilename(String imageFilename);
+      Invariant ImageReferenceReset {
+        rule "Изменение imageFilename очищает imageURL до следующего подтверждения"
+        testedBy "examples/reference.TestImageReferenceReset"
+        implementedBy "examples/reference.Item.SetImage"
+      }
+      Repository ProductRepository {
+        List < @ Product > getProducts(List < String > productIds);
+        void updateProduct(@ Product product);
+      }
+    }
+    enum ProductStatus {
+      aggregateLifecycle
+      INIT,
+      PUBLISHED,
+      RESERVED
+    }
+    DomainEvent ProductInited {
+      String productId
+    }
+    Service ProductService {
+      void checkProduct(String productId) : write [ INIT, PUBLISHED, RESERVED ->
+      PUBLISHED ];
+    }
+  }
+  Application {
+    Command CreateProduct {
+      String name
+      double price
+    }
+    Flow ProductInitialization {
+      command CreateProduct delegates to Product [ ->
+      INIT ] emits event
+      ProductInited
+      event ProductInited triggers operation
+      checkProduct
+    }
+  }
+}
+BoundedContext Orders {
+  domainVisionStatement "Проверять владельца, резервировать продукты и переводить созданный заказ в processing."
+  Aggregate Order {
+    Entity Order {
+      aggregateRoot
+      String orderId
+      String userId
+      - List < OrderedProduct > products
+      - OrderStatus status
+      def void process() : write [ CREATED ->
+      PROCESSING ];
+      Invariant ProcessingGuard {
+        rule "Повторный process при PROCESSING возвращает ошибку и сохраняет статус"
+        testedBy "examples/reference.TestProcessingGuard"
+        implementedBy "examples/reference.Request.Process"
+      }
+      Repository OrderRepository {
+        @ Order getOrder(String orderId);
+        void processOrders();
+      }
+    }
+    Entity OrderedProduct {
+      String productId
+      String name
+      double price
+      - OrderingProductStatus status
+      def void reserve();
+      Invariant ReservationGuard {
+        rule "reserve разрешён только из PUBLISHED; INIT и RESERVED отклоняются без изменения статуса"
+        testedBy "examples/reference.TestReservationGuard"
+        implementedBy "examples/reference.Item.Reserve"
+      }
+    }
+    enum OrderStatus {
+      aggregateLifecycle
+      CREATED,
+      PROCESSING
+    }
+    enum OrderingProductStatus {
+      INIT,
+      PUBLISHED,
+      RESERVED
+    }
+    DomainEvent OrderProcessing {
+      String orderId
+    }
+    Service OrderService {
+      void handleCreatedOrders();
+    }
+  }
+  Application {
+    Command ProcessOrders
+    Flow OrderProcessingFlow {
+      command ProcessOrders delegates to Order [ CREATED ->
+      PROCESSING ] emits event
+      OrderProcessing
+    }
+  }
+}
+BoundedContext Deliveries {
+  domainVisionStatement "Создавать запись доставки по событию обработки заказа."
+  Aggregate Delivery {
+    Entity Delivery {
+      aggregateRoot
+      String deliveryId
+      String orderId
+      Date createdAt
+      Repository DeliveryRepository {
+        List < @ Delivery > listDeliveries();
+        void deleteDelivery(String deliveryId);
+      }
+    }
+    Service DeliveryService {
+      @ Delivery createDelivery(String orderId);
+    }
+  }
+}
+BoundedContext ExternalService {
+  type SYSTEM
+  domainVisionStatement "Предоставлять порт внешнего хранилища без конфигурации и конкретных адресов."
+  Aggregate AssetStorage {
+    Service ImageStorage {
+      String getImageUploadURL(String assetKey);
+      String confirmImageUpload(String assetKey);
+    }
+  }
+}

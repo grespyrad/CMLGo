@@ -1,0 +1,12 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					Entity MyFirstEntity {
+						aggregateRoot
+					}
+					Entity MySecondEntity {
+						aggregateRoot
+					}
+				}
+			}
+		

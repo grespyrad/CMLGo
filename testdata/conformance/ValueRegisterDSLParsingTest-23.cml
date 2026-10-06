@@ -1,0 +1,10 @@
+
+			BoundedContext TestContext
+			ValueRegister TestRegister for TestContext {
+				ValueCluster Privacy {
+					core PRIVACY
+					opposingValue "Transparency"
+					opposingValue "Inclusiveness"
+				}
+			}
+		

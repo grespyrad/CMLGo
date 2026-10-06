@@ -1,0 +1,8 @@
+
+			BoundedContext NotATeam realizes ContextA {
+				type = SYSTEM
+			}
+			BoundedContext ContextA {
+				type = FEATURE
+			}
+		

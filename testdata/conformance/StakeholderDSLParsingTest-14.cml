@@ -1,0 +1,9 @@
+
+			BoundedContext testContext
+			
+			Stakeholders of testContext {
+				Stakeholder TestUser {
+					description = "User that tests something"
+				}
+			}
+		

@@ -1,0 +1,5 @@
+
+			BoundedContext testContext {
+				implementationTechnology = "Java / Spring Boot App"
+			}
+		

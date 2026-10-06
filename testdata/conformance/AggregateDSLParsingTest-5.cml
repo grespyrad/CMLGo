@@ -1,0 +1,10 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					owner = teamA
+				}
+			}
+			
+			BoundedContext teamA {
+			}
+		

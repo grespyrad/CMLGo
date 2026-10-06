@@ -1,0 +1,11 @@
+
+			ContextMap {
+				 contains testContext
+				 contains anotherTestContext
+
+				 testContext Shared-Kernel anotherTestContext : testrel
+			}
+
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

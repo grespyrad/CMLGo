@@ -1,0 +1,8 @@
+
+			Domain Insurance {
+				Subdomain CustomerManagement supports Manage_Customers {
+					type CORE_DOMAIN
+				}
+			}
+			UserStory Manage_Customers
+		

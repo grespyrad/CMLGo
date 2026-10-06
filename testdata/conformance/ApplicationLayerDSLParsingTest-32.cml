@@ -1,0 +1,32 @@
+
+			ContextMap TestMap {
+				contains ContextA
+				contains ContextB
+				
+				ContextA <-> ContextB
+			}
+			BoundedContext ContextA {
+				Application {
+					Coordination CoordinationA {
+						ContextA::ServiceA::operationA;
+						ContextB::ServiceB::operationB;
+					}
+					
+					Service ServiceA {
+						operationA;
+					}
+				}
+			}
+			BoundedContext ContextB {
+				Application {
+					Coordination CoordinationB {
+						ContextB::ServiceB::operationB;
+						ContextA::ServiceA::operationA;
+					}
+					
+					Service ServiceB {
+						operationB;
+					}
+				}
+			}
+		

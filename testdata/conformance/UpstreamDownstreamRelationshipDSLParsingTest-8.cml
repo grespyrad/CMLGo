@@ -1,0 +1,11 @@
+
+			ContextMap {
+				 contains testContext
+				 contains anotherTestContext
+			
+				 testContext [PL]Supplier-Customer[ACL] anotherTestContext
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

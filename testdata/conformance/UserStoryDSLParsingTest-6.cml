@@ -1,0 +1,7 @@
+
+			UserStory testUsecase {
+				As an "Insurance Employee" 
+					I want to create a "Customer" with its "firstname", "lastname"
+				so that "I can manage the customers data and ..."
+			}
+		

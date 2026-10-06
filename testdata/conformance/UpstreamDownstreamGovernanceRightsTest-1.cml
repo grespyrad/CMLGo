@@ -1,0 +1,13 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				testContext [U,S]->[D,C] anotherTestContext {
+					downstreamRights = VETO_RIGHT
+				}
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

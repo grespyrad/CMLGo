@@ -1,0 +1,17 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				anotherTestContext [S]->[C] testContext {
+					implementationTechnology "RESTful HTTP"
+					downstreamRights INFLUENCER
+					exposedAggregates agg1
+				}
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext {
+				Aggregate agg1
+			}
+		

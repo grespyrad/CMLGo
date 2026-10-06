@@ -1,0 +1,8 @@
+
+			BoundedContext TestBC {
+				Module TestModule {
+					Service Service1
+					Entity Entity1
+				}
+			}
+		

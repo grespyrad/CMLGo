@@ -1,0 +1,20 @@
+
+			BoundedContext ContextA {
+				Application {
+					Flow TestFlow {
+						event EventA triggers operation operationB
+					}
+				}
+				
+				Aggregate AggA {
+					DomainEvent EventA
+				}
+			}
+			BoundedContext ContextB {
+				Aggregate AggB {
+					Service ServiceB {
+						void operationB();
+					}
+				}
+			}
+		

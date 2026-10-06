@@ -1,0 +1,5 @@
+
+			BoundedContext testContext {
+				responsibilities = "a responsibility description...", "another responsibility"
+			}
+		

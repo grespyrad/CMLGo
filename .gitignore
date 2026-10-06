@@ -1,0 +1,15 @@
+bin/
+.task/
+.coverage/
+.DS_Store
+*.test
+go.work
+go.work.sum
+
+node_modules/
+.task/
+.coverage/
+
+target/
+*.cpu
+*.mem

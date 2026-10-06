@@ -1,0 +1,9 @@
+
+			BoundedContext testContext implements Insurance
+			
+			Domain Insurance {
+				Subdomain CoreDomain {
+					type = CORE_DOMAIN
+				}
+			}
+		

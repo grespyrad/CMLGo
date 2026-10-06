@@ -1,0 +1,17 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+
+				testContext Partnership anotherTestContext : testrel {
+				 	implementationTechnology "Messaging"
+			 	}
+			 	
+			 	testContext [SK]<->[SK] anotherTestContext {
+				 	implementationTechnology "RPC"
+			 	}
+			}
+
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

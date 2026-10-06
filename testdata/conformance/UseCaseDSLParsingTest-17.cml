@@ -1,0 +1,7 @@
+
+			UseCase testUsecase {
+				actor = "Insurance Employee"
+				interactions = "add" an "Address" with its "firstname", "lastname" to an "Customer"
+				benefit = "I can manage the customers data and ..."
+			}
+		

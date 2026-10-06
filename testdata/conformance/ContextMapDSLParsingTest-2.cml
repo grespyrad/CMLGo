@@ -1,0 +1,9 @@
+
+			ContextMap {
+				 contains testContext
+				 contains anotherTestContext
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

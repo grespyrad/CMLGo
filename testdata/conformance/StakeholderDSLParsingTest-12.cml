@@ -1,0 +1,10 @@
+
+			BoundedContext testContext
+			
+			Stakeholders of testContext {
+				Stakeholder TestUser {
+					influence HIGH
+					interest LOW
+				}
+			}
+		

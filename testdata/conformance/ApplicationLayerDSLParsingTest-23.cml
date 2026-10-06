@@ -1,0 +1,16 @@
+
+			BoundedContext TestContext {
+				Application {
+					Command TestCommand1
+					Command TestCommand2
+					
+					Flow TestFlow {
+						event TestEvent triggers command TestCommand1 X TestCommand2
+					}
+				}
+				
+				Aggregate TestAggregate {
+					DomainEvent TestEvent
+				}
+			}
+		

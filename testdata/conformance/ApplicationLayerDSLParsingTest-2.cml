@@ -1,0 +1,7 @@
+
+			BoundedContext TestContext {
+				Application MyAppLayer {
+					Command TestCommand // needs at least some content
+				}
+			}
+		

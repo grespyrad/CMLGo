@@ -1,0 +1,7 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					securityZone = "MyZone"
+				}
+			}
+		

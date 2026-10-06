@@ -1,0 +1,23 @@
+
+			BoundedContext ContextA {
+				Application {
+					Command CommandA
+					
+					Flow TestFlow {
+						command CommandA delegates to AggA [STATE1 -> STATE3] emits event EventA
+					}
+				}
+				
+				Aggregate AggA {
+					DomainEvent EventA
+					
+					enum States {
+						aggregateLifecycle
+						STATE1, STATE2
+					}
+					enum AnotherEnum {
+						STATE3
+					}
+				}
+			}
+		

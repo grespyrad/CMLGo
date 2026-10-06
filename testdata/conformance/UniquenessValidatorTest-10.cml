@@ -1,0 +1,8 @@
+
+			Domain TestDomain {
+				Subdomain TestSubDomain {
+					Entity Account
+					Entity Account
+				}
+			}
+		

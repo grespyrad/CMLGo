@@ -1,0 +1,9 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Entity TestEntity {
+						String testAttr unique;
+					}
+				}
+			}
+		

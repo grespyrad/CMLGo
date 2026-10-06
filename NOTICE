@@ -1,0 +1,21 @@
+Context Mapper Go
+Copyright 2026 context-mapper-go contributors
+
+Derived grammar and validation behavior:
+Context Mapper Project Team, Copyright 2018–2024
+https://github.com/ContextMapper/context-mapper-dsl (Apache License 2.0)
+Pinned release v6.12.0, eb63d120265600cc9d5f531cdbfc9ef44837d78c.
+
+TacticDDDLanguage.xtext originally derives from Sculptor:
+Copyright 2013 The Sculptor Project Team, including original authors.
+Modifications Copyright 2018 The Context Mapper Project Team.
+https://github.com/sculptor/base (Apache License 2.0)
+
+Example CML models in testdata/upstream:
+https://github.com/ContextMapper/context-mapper-examples (Apache License 2.0)
+Commit 3c28b419e965e74aa3bfe616467cf5ebfff261a8.
+Original copyright comments are retained in copied sources.
+
+Reference models in testdata/reference illustrate a fictional service integration.
+They contain no deployment configuration or real service identifiers.
+This is an independent Go implementation, not an official Context Mapper product.

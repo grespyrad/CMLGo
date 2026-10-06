@@ -1,0 +1,14 @@
+
+			BoundedContext ContextA {
+				Application {
+					Coordination TestCoordination {
+					}
+				}
+			}
+			BoundedContext ContextB {
+				Application {
+					Coordination TestCoordination {
+					}
+				}
+			}
+		

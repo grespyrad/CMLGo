@@ -1,0 +1,7 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					knowledgeLevel = CONCRETE
+				}
+			}
+		

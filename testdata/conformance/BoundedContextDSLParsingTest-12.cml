@@ -1,0 +1,9 @@
+
+			BoundedContext testContext {
+				type FEATURE
+				implementationTechnology "Java / Spring Boot App"
+				knowledgeLevel META
+				domainVisionStatement "this is my vision"
+				responsibilities "a responsibility description...", "another responsibility"
+			}
+		

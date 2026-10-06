@@ -1,0 +1,13 @@
+
+			Domain Insurance {
+				Subdomain CoreDomain {
+					type = CORE_DOMAIN
+					domainVisionStatement = "my domain vision for this subdomain"
+	
+					Entity MyCoreEntity {
+						String attr1
+						string attr2
+					}
+				}
+			}
+		

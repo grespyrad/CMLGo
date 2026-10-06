@@ -1,0 +1,7 @@
+
+			BoundedContext TestContext {
+				Application {
+					Command TestCommand
+				}
+			}
+		

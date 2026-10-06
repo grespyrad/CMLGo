@@ -1,0 +1,14 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				anotherTestContext [S]->[C] testContext {
+					downstreamRights = INFLUENCER
+					implementationTechnology = "RESTful HTTP"
+				}
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

@@ -1,0 +1,9 @@
+
+			BoundedContext TestContext
+			ValueRegister TestRegister for TestContext {
+				ValueCluster Privacy {
+					core PRIVACY
+					demonstrator "right to be alone"
+				}
+			}
+		

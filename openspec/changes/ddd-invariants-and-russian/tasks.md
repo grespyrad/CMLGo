@@ -1,0 +1,5 @@
+- [x] OpenSpec и external tests до реализации
+- [x] Grammar overlay, typed model, semantic invariant checks
+- [x] Locale dictionary, Unicode identifiers, strict original, codec
+- [x] Formatter и CLI integration, diagrams, compatibility corpus
+- [x] Полный quality gate, versioned release, handover

@@ -1,0 +1,11 @@
+
+			ContextMap {
+				type = ORGANIZATIONAL
+			
+				contains notATeam
+			}
+			
+			BoundedContext notATeam {
+				type = SYSTEM
+			}
+		

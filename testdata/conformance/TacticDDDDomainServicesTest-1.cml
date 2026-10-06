@@ -1,0 +1,8 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+				}
+				Service TestService {
+				}
+			}
+		

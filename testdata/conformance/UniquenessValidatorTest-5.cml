@@ -1,0 +1,6 @@
+
+			BoundedContext ContextA {
+				Aggregate agg
+				Aggregate agg
+			}
+		

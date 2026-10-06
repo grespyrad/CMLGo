@@ -1,0 +1,15 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Service TestService {
+						void testOperation() : write [-> STATE3];
+					}
+					
+					enum States {
+						aggregateLifecycle
+						
+						STATE1, STATE2, STATE3
+					}
+				}
+			}
+		

@@ -1,0 +1,62 @@
+version: '3'
+env:
+  GOWORK: 'off'
+tasks:
+  default:
+    cmds: [task --list]
+  tools:
+    cmds:
+      - for module in tools/*.mod; do go mod download -modfile="$module"; done
+      - npm ci --ignore-scripts
+  hooks:
+    cmds: [git config core.hooksPath .githooks]
+  fmt:
+    cmds: [go tool -modfile=tools/golangci.mod golangci-lint fmt]
+  lint:
+    cmds:
+      - go tool -modfile=tools/golangci.mod golangci-lint config verify
+      - ./scripts/check-format.sh
+      - go tool -modfile=tools/golangci.mod golangci-lint run
+  modules:
+    cmds:
+      - ./scripts/check-toolchain.sh
+      - ./scripts/check-modules.sh
+  build:
+    cmds: [go build ./...]
+  vet:
+    cmds: [go vet ./...]
+  specs:
+    cmds:
+      - npm ci --ignore-scripts
+      - npm run specs:check
+  policy:
+    cmds:
+      - python3 scripts/check-examples.py
+      - python3 scripts/check-examples.py --self-test
+      - ./scripts/check-policy.sh
+      - go run .agents/skills/repository-conventions/scripts/check.go -self-test
+  architecture:
+    cmds:
+      - python3 scripts/check_architecture.py --mode library
+      - python3 scripts/check_architecture.py --mode library --self-test
+  test:
+    cmds:
+      - mkdir -p .coverage
+      - go test -race -shuffle=on -count=1 -coverprofile=.coverage/unit.out ./...
+  vulnerability:
+    cmds: [go tool -modfile=tools/security.mod govulncheck ./...]
+  check:
+    cmds:
+      - task: modules
+      - task: lint
+      - task: architecture
+      - task: build
+      - task: vet
+      - task: test
+      - task: vulnerability
+      - task: specs
+      - task: policy
+  fuzz:
+    cmds: [go test -run='^$' -fuzz=FuzzParse -fuzztime=10s .]
+  bench:
+    cmds: [go test -run='^$' -bench=. -benchmem .]

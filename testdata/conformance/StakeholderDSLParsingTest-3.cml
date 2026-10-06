@@ -1,0 +1,7 @@
+
+			BoundedContext testContext
+			
+			Stakeholders of testContext {
+				Stakeholder TestUser
+			}
+		

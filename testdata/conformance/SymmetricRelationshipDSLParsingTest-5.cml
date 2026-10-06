@@ -1,0 +1,13 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+
+				testContext Partnership anotherTestContext : testrel {
+				 	implementationTechnology = "Messaging"
+			 	}
+			}
+
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

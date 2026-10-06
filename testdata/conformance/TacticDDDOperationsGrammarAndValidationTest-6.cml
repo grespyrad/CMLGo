@@ -1,0 +1,10 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Entity TestRoot {
+						aggregateRoot
+						def void testOperation() : read-only;
+					}
+				}
+			}
+		

@@ -1,0 +1,19 @@
+
+			BoundedContext TestContext {
+				Application {
+					Service TestService {
+						void testOperation();
+					}
+					
+					Flow TestFlow {
+						operation testOperation emits event TestEvent1 X TestEvent2 x TestEvent3
+					}
+				}
+				
+				Aggregate TestAggregate {
+					DomainEvent TestEvent1
+					DomainEvent TestEvent2
+					DomainEvent TestEvent3
+				}
+			}
+		

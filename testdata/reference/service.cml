@@ -1,0 +1,31 @@
+// Синтетическая модель интеграции внешнего сервиса.
+ContextMap {
+ type SYSTEM_LANDSCAPE
+ state TO_BE
+ contains ExternalService
+ contains ServiceIntegration
+ ExternalService [U,OHS,PL] -> [D,ACL] ServiceIntegration
+}
+BoundedContext ExternalService {
+ type SYSTEM
+ domainVisionStatement "Предоставлять внешние записи и подтверждённые статусы."
+ Aggregate ExternalRecords {
+  Entity ExternalRecord { aggregateRoot String recordId String status }
+ }
+}
+BoundedContext ServiceIntegration {
+ domainVisionStatement "Обрабатывать запросы по общему контракту сервиса."
+ Aggregate Requests {
+  Entity Request {
+   aggregateRoot
+   String requestId
+   - Policy policy
+   def @Decision evaluate(@Observation observation);
+  }
+  ValueObject Policy { int maxAttempts }
+  ValueObject Observation { String status Date observedAt }
+  ValueObject Decision { String requestedAction String reason }
+  Command AcceptRequest { String requestId }
+  DomainEvent RequestAccepted { String requestId Date occurredAt }
+ }
+}

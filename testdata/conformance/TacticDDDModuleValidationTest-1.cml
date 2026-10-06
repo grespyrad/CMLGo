@@ -1,0 +1,7 @@
+
+			BoundedContext TestBC {
+				Module TestModule {
+					Service Service1
+				}
+			}
+		

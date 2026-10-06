@@ -1,0 +1,10 @@
+
+			BoundedContext TestContext {
+				Application {
+					Flow TestFlow {
+					}
+					Flow TestFlow {
+					}
+				}
+			}
+		

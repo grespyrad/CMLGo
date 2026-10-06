@@ -1,0 +1,11 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				anotherTestContext [CF]Downstream-Upstream[OHS,PL] testContext
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

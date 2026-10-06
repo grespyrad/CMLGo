@@ -1,0 +1,8 @@
+
+			BoundedContext ContextA {
+				Module Mod {
+					Entity Account
+					Entity Account
+				}
+			}
+		

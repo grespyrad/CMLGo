@@ -1,0 +1,54 @@
+// Учебная модель: trace links условны и не ссылаются на код этого репозитория.
+КартаКонтекстов {
+  type SYSTEM_LANDSCAPE
+  state TO_BE
+  contains ВнешнийСервис
+  contains ИнтеграцияСервиса
+  ВнешнийСервис [ U, OHS, PL ] -> [ D, ACL ] ИнтеграцияСервиса
+}
+ОграниченныйКонтекст ВнешнийСервис {
+  type SYSTEM
+  domainVisionStatement "Условный поставщик запросов и подтверждённых статусов."
+}
+ОграниченныйКонтекст ИнтеграцияСервиса {
+  domainVisionStatement "Принимать запросы с сохранением идентичности и проверяемых ограничений."
+  Invariant ПостоянствоИдентичностиЗапроса {
+    rule "Повторный запрос с тем же идентификаторЗапроса обозначает ту же операцию"
+    rationale "Повторная доставка не создаёт новую операцию"
+    testedBy "example.contracts.TestRequestIdentity"
+    implementedBy "example.integration.Accept"
+  }
+  Агрегат Запросы {
+    Invariant ОдинВладелец {
+      rule "Состояние запроса изменяет только владелец агрегата Запросы"
+      testedBy "example.contracts.TestSingleOwner"
+      implementedBy "example.requests.Handle"
+    }
+    Сущность Запрос {
+      aggregateRoot
+      String идентификаторЗапроса
+      int числоПопыток
+      - ПолитикаПовторов политика
+      Invariant НеотрицательноеЧислоПопыток {
+        rule "числоПопыток >= 0"
+        testedBy "example.contracts.TestAttemptCount"
+        implementedBy "example.requests.RecordAttempt"
+      }
+    }
+    ОбъектЗначение ПолитикаПовторов {
+      int пределПопыток
+      Invariant ПоложительныйПредел {
+        rule "пределПопыток > 0"
+        testedBy "example.contracts.TestRetryLimit"
+        implementedBy "example.политика.Create"
+      }
+    }
+    Команда ПринятьЗапрос {
+      String идентификаторЗапроса
+    }
+    DomainEvent ЗапросПринят {
+      String идентификаторЗапроса
+      Date времяСобытия
+    }
+  }
+}

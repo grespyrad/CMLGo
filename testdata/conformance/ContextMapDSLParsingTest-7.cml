@@ -1,0 +1,11 @@
+
+			ContextMap {
+				type = SYSTEM_LANDSCAPE
+			
+				contains aTeam
+			}
+			
+			BoundedContext aTeam {
+				type = TEAM
+			}
+		

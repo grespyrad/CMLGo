@@ -1,0 +1,16 @@
+
+			ContextMap TestMap {
+				contains TestContext
+			}
+			BoundedContext TestContext {
+				Application {
+					Coordination TestCoordination {
+						TestContext::TestService::testOperation;
+					}
+				}
+				
+				Service TestService {
+					testOperation;
+				}
+			}
+		

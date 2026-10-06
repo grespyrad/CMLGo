@@ -1,0 +1,9 @@
+
+			BoundedContext TestContext {
+				Application {
+					Service TestService {
+						void exampleOperation();
+					}
+				}
+			}
+		

@@ -1,0 +1,175 @@
+// Модель нейтрального Go DDD-эталона. Развёртывание и персональные данные не моделируются.
+ContextMap {
+  type SYSTEM_LANDSCAPE
+  state AS_IS
+  contains ExternalService
+  contains Accounts
+  contains Resources
+  contains Requests
+  contains Tasks
+  ExternalService [ U, OHS, PL ] -> [ D, ACL ] Resources
+  Accounts [ U, OHS, PL ] -> [ D, ACL ] Requests
+  Resources [ U, PL ] -> [ D, ACL ] Requests
+  Requests [ U, PL ] -> [ D, ACL ] Tasks
+}
+BoundedContext Accounts {
+  domainVisionStatement "Хранить идентичность и проверяемые значения участника без конкретных данных."
+  Aggregate Account {
+    Entity Account {
+      aggregateRoot
+      String accountId
+      - AccountName name
+      - AccountContact contact
+      Repository AccountRepository {
+        @ Account getAccount(String accountId);
+      }
+    }
+    ValueObject AccountName {
+      String value
+    }
+    ValueObject AccountContact {
+      String value
+    }
+    Service AccountService {
+      @ Account getAccount(String accountId);
+    }
+  }
+}
+BoundedContext Resources {
+  domainVisionStatement "Создавать ресурс, подтверждать публикацию и учитывать ссылку на вложение."
+  Aggregate ResourceRecord {
+    Entity ResourceRecord {
+      aggregateRoot
+      String resourceId
+      String name
+      double price
+      String assetKey
+      String assetReference
+      - ResourceState status
+      def void ^publish();
+      def void setAssetKey(String assetKey);
+      Invariant ImageReferenceReset {
+        rule "Изменение assetKey очищает assetReference до следующего подтверждения"
+        testedBy "examples/reference.TestImageReferenceReset"
+        implementedBy "examples/reference.Item.SetImage"
+      }
+      Repository ResourceRepository {
+        List < @ ResourceRecord > getResources(List < String > resourceIds);
+        void updateResource(@ ResourceRecord resourceRecord);
+      }
+    }
+    enum ResourceState {
+      aggregateLifecycle
+      INIT,
+      PUBLISHED,
+      RESERVED
+    }
+    DomainEvent ResourceInitialized {
+      String resourceId
+    }
+    Service ResourceService {
+      void checkResource(String resourceId) : write [ INIT, PUBLISHED, RESERVED ->
+      PUBLISHED ];
+    }
+  }
+  Application {
+    Command CreateResource {
+      String name
+      double price
+    }
+    Flow ResourceInitialization {
+      command CreateResource delegates to ResourceRecord [ ->
+      INIT ] emits event
+      ResourceInitialized
+      event ResourceInitialized triggers operation
+      checkResource
+    }
+  }
+}
+BoundedContext Requests {
+  domainVisionStatement "Проверять владельца, резервировать ресурсы и переводить созданный запрос в processing."
+  Aggregate Request {
+    Entity Request {
+      aggregateRoot
+      String requestId
+      String accountId
+      - List < RequestedResource > resources
+      - RequestState status
+      def void process() : write [ CREATED ->
+      PROCESSING ];
+      Invariant ProcessingGuard {
+        rule "Повторный process при PROCESSING возвращает ошибку и сохраняет статус"
+        testedBy "examples/reference.TestProcessingGuard"
+        implementedBy "examples/reference.Request.Process"
+      }
+      Repository RequestRepository {
+        @ Request getRequest(String requestId);
+        void processRequests();
+      }
+    }
+    Entity RequestedResource {
+      String resourceId
+      String name
+      double price
+      - RequestedResourceState status
+      def void reserve();
+      Invariant ReservationGuard {
+        rule "reserve разрешён только из PUBLISHED; INIT и RESERVED отклоняются без изменения статуса"
+        testedBy "examples/reference.TestReservationGuard"
+        implementedBy "examples/reference.Item.Reserve"
+      }
+    }
+    enum RequestState {
+      aggregateLifecycle
+      CREATED,
+      PROCESSING
+    }
+    enum RequestedResourceState {
+      INIT,
+      PUBLISHED,
+      RESERVED
+    }
+    DomainEvent RequestProcessing {
+      String requestId
+    }
+    Service RequestService {
+      void handleCreatedRequests();
+    }
+  }
+  Application {
+    Command ProcessRequests
+    Flow RequestProcessingFlow {
+      command ProcessRequests delegates to Request [ CREATED ->
+      PROCESSING ] emits event
+      RequestProcessing
+    }
+  }
+}
+BoundedContext Tasks {
+  domainVisionStatement "Создавать запись задачи по событию обработки запроса."
+  Aggregate TaskRecord {
+    Entity TaskRecord {
+      aggregateRoot
+      String taskId
+      String requestId
+      Date createdAt
+      Repository TaskRepository {
+        List < @ TaskRecord > listTasks();
+        void deleteTask(String taskId);
+      }
+    }
+    Service TaskService {
+      @ TaskRecord createTask(String requestId);
+    }
+  }
+}
+BoundedContext ExternalService {
+  type SYSTEM
+  domainVisionStatement "Предоставлять порт внешнего хранилища без конфигурации и конкретных адресов."
+  Aggregate AssetStorage {
+    Service AssetStoragePort {
+      String getAssetUploadReference(String assetKey);
+      String confirmAssetUpload(String assetKey);
+    }
+  }
+}

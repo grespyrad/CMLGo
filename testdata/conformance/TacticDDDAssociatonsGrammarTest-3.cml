@@ -1,0 +1,15 @@
+
+			BoundedContext TestContext {
+				Aggregate TestAggregate {
+					Entity Address
+				}
+			}
+			
+			Domain TestDomain {
+				Subdomain TestSubdomain {
+					Entity Customer {
+						-- "lives at" @Address
+					}
+				}
+			}
+		

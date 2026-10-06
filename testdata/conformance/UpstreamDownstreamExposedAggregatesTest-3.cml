@@ -1,0 +1,21 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				testContext [U,OHS,PL]->[D,CF] anotherTestContext {
+					exposedAggregates = anotherAggregate
+				}
+			}
+			
+			BoundedContext testContext {
+				Module mod1 {
+					Aggregate myAggregate {}
+				}
+			}
+			BoundedContext anotherTestContext {
+				Module mod2 {
+					Aggregate anotherAggregate {}
+				}
+			}
+		

@@ -1,0 +1,7 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					responsibilities = "can calculate customer risks..."
+				}
+			}
+		

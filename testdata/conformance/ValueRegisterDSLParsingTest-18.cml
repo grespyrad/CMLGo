@@ -1,0 +1,19 @@
+
+			BoundedContext TestContext
+			Stakeholders of TestContext {
+				Stakeholder TestUser
+			}
+			ValueRegister TestRegister for TestContext {
+				Value Privacy {
+					isCore
+					demonstrator "right to be alone"
+					Stakeholder TestUser {
+						impact HIGH
+						priority LOW
+						consequences
+							bad "but user has to provide too much information"
+								action "ask for less information" ACT
+					}
+				}
+			}
+		

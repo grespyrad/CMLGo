@@ -1,0 +1,9 @@
+
+			BoundedContext testContext
+			
+			ContextMap {
+				 contains testContext
+				 
+				 testContext [P]<->[P] testContext
+			}
+		

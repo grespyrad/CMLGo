@@ -1,0 +1,18 @@
+
+			BoundedContext testContext {
+				Aggregate myAggregate {
+					likelihoodForChange OFTEN
+					responsibilities "can calculate customer risks..."
+					knowledgeLevel CONCRETE
+					useCases testUseCase1, testUseCase2
+					owner teamA
+				}
+			}
+			
+			BoundedContext teamA {
+				type TEAM
+			}
+			
+			UseCase testUseCase1
+			UseCase testUseCase2
+		

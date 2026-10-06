@@ -1,0 +1,10 @@
+
+			BoundedContext TestContext {
+				Application {
+					Coordination TestCoordination {
+					}
+					Coordination TestCoordination {
+					}
+				}
+			}
+		

@@ -1,0 +1,12 @@
+
+			BoundedContext TestContext {
+			    Aggregate TestAggregate {
+			        Entity TestEntity {
+			            - List<UserRoles> roles;
+			        }
+			        enum UserRoles {
+			            ADMIN, MANAGER, USER
+			        }
+			    }
+			}
+		

@@ -1,0 +1,8 @@
+
+			BoundedContext TeamA realizes ContextA {
+				type = TEAM
+			}
+			BoundedContext ContextA {
+				type = FEATURE
+			}
+		

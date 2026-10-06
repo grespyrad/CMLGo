@@ -1,0 +1,54 @@
+// Учебная модель: trace links условны и не ссылаются на код этого репозитория.
+ContextMap {
+  type SYSTEM_LANDSCAPE
+  state TO_BE
+  contains ExternalService
+  contains ServiceIntegration
+  ExternalService [ U, OHS, PL ] -> [ D, ACL ] ServiceIntegration
+}
+BoundedContext ExternalService {
+  type SYSTEM
+  domainVisionStatement "Условный поставщик запросов и подтверждённых статусов."
+}
+BoundedContext ServiceIntegration {
+  domainVisionStatement "Принимать запросы с сохранением идентичности и проверяемых ограничений."
+  Invariant StableRequestIdentity {
+    rule "Повторный запрос с тем же requestId обозначает ту же операцию"
+    rationale "Повторная доставка не создаёт новую операцию"
+    testedBy "example.contracts.TestRequestIdentity"
+    implementedBy "example.integration.Accept"
+  }
+  Aggregate Requests {
+    Invariant SingleOwner {
+      rule "Состояние запроса изменяет только владелец агрегата Requests"
+      testedBy "example.contracts.TestSingleOwner"
+      implementedBy "example.requests.Handle"
+    }
+    Entity Request {
+      aggregateRoot
+      String requestId
+      int attemptCount
+      - RetryPolicy policy
+      Invariant NonNegativeAttempts {
+        rule "attemptCount >= 0"
+        testedBy "example.contracts.TestAttemptCount"
+        implementedBy "example.requests.RecordAttempt"
+      }
+    }
+    ValueObject RetryPolicy {
+      int maxAttempts
+      Invariant PositiveLimit {
+        rule "maxAttempts > 0"
+        testedBy "example.contracts.TestRetryLimit"
+        implementedBy "example.policy.Create"
+      }
+    }
+    Command AcceptRequest {
+      String requestId
+    }
+    DomainEvent RequestAccepted {
+      String requestId
+      Date occurredAt
+    }
+  }
+}

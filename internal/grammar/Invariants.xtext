@@ -1,0 +1,9 @@
+// CMLGo расширение: декларативные инварианты, не исполняемые предикаты.
+Invariant:
+ 'Invariant' name=ID OPEN
+ (('rule' ('=')? rule=STRING) &
+ ('rationale' ('=')? rationale=STRING)? &
+ ('testedBy' ('=')? testedBy+=STRING (',' testedBy+=STRING)*)? &
+ ('implementedBy' ('=')? implementedBy+=STRING (',' implementedBy+=STRING)*)?)
+ CLOSE
+;

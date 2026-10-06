@@ -1,0 +1,8 @@
+
+			BoundedContext TestContext
+			ValueRegister TestRegister for TestContext {
+				ValueCluster MyTestCluster {
+					core "MyValue"
+				}
+			}
+		

@@ -1,0 +1,9 @@
+
+			BoundedContext ContextA {
+				Aggregate TestAggregate {
+					Entity TestEntity {
+						String testId // string as ID --> this can be improved
+					}
+				}
+			}
+		

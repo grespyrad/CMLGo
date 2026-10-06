@@ -1,0 +1,10 @@
+
+			BoundedContext testContext implements Insurance, Banking
+			
+			Domain Insurance {
+				Subdomain CoreDomain {
+					type = CORE_DOMAIN
+				}
+			}
+			Domain Banking
+		

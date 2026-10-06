@@ -1,0 +1,19 @@
+
+			ContextMap {
+				contains ContextA, ContextB
+				
+				ContextB <-> ContextA
+			}
+			BoundedContext ContextA {
+				Aggregate TestAggregate1 {
+					Entity TestEntity
+				}
+			}
+			BoundedContext ContextB {
+				Aggregate TestAggregate2 {
+					Entity TestEntity2 {
+						- TestEntity ref
+					}
+				}
+			}
+		

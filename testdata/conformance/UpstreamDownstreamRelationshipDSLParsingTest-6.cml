@@ -1,0 +1,11 @@
+
+			ContextMap {
+				 contains testContext
+				 contains anotherTestContext
+			
+				 anotherTestContext Customer-Supplier testContext
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

@@ -1,0 +1,13 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				anotherTestContext [S]->[C] testContext {
+					implementationTechnology = "RESTful HTTP"
+				}
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

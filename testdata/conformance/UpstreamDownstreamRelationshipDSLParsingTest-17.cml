@@ -1,0 +1,11 @@
+
+			ContextMap {
+				contains testContext
+				contains anotherTestContext
+			
+				anotherTestContext [S]->[C] testContext : myRelName
+			}
+			
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

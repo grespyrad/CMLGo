@@ -1,0 +1,22 @@
+// Синтетическая исходная модель интеграции внешнего сервиса.
+ContextMap {
+ type SYSTEM_LANDSCAPE
+ state AS_IS
+ contains ExternalService
+ contains LegacyIntegration
+ ExternalService [U,OHS,PL] -> [D,ACL] LegacyIntegration
+}
+BoundedContext ExternalService {
+ type SYSTEM
+ Aggregate ExternalRecords {
+  Entity ExternalRecord { aggregateRoot String recordId String status }
+ }
+}
+BoundedContext LegacyIntegration {
+ domainVisionStatement "Объединять внешний статус и локальную обработку запроса."
+ Aggregate Requests {
+  Entity Request { aggregateRoot String requestId String externalStatus }
+  Command AcceptRequest { String requestId }
+  DomainEvent RequestAccepted { String requestId Date occurredAt }
+ }
+}

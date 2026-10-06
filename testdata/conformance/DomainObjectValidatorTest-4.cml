@@ -1,0 +1,17 @@
+
+			BoundedContext ContextA {
+				Aggregate TestAggregate1 {
+					Entity TestEntity {
+						
+					}
+				}
+				Aggregate TestAggregate2 {
+					Entity TestEntity {
+						
+					}
+					Entity TestEntity2 {
+						- TestEntity ref
+					}
+				}
+			}
+		

@@ -1,0 +1,8 @@
+
+			Domain Insurance {
+				Subdomain CoreDomain {
+					type CORE_DOMAIN
+					domainVisionStatement "my domain vision for this subdomain"
+				}
+			}
+		

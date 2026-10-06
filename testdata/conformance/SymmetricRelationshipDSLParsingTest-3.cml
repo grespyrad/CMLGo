@@ -1,0 +1,11 @@
+
+			ContextMap {
+				 contains testContext
+				 contains anotherTestContext
+
+				 <<relationship>>
+			}
+
+			BoundedContext testContext
+			BoundedContext anotherTestContext
+		

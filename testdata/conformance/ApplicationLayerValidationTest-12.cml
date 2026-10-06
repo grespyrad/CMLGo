@@ -1,0 +1,20 @@
+
+			ContextMap TestMap {
+				contains ContextA
+				contains ContextB
+			}
+			BoundedContext ContextA {
+				Application {
+					Coordination TestCoordination {
+						ContextA::TestService::testOperation;
+					}
+				}
+			}
+			BoundedContext ContextB {
+				Application {
+					Service TestService {
+						testOperation;
+					}
+				}
+			}
+		

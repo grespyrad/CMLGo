@@ -1,0 +1,14 @@
+
+			BoundedContext ContextA {
+				Application {
+					Flow TestFlow {
+						command CommandB emits event EventA
+					}
+				}
+				
+				Aggregate AggA {
+					DomainEvent EventA
+					Command CommandB
+				}
+			}
+		

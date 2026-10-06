@@ -1,0 +1,23 @@
+
+			ContextMap {
+				contains ContextA, ContextB
+				
+				ContextB <- ContextA {
+					exposedAggregates TestAggregate3
+				}
+			}
+			BoundedContext ContextA {
+				Aggregate TestAggregate1 {
+					Entity TestEntity
+				}
+				
+				Aggregate TestAggregate3
+			}
+			BoundedContext ContextB {
+				Aggregate TestAggregate2 {
+					Entity TestEntity2 {
+						- TestEntity ref
+					}
+				}
+			}
+		

@@ -1,0 +1,9 @@
+
+			BoundedContext testContext
+
+			Domain Insurance {
+				Subdomain CoreDomain
+				Subdomain support1
+				Subdomain generic
+			}
+		
